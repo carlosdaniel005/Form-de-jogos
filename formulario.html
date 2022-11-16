@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de games</title>
+</head>
+
+<body>
+    <h1>Formulário Jogo</h1>
+
+    <form>
+
+        <!--LEGENDA PARA NOME-->
+        <label for="campo_nome">Nome:</label>
+
+        <!--CAMPO INPUT DO TYPE TEXT-->
+        <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br> <br>
+
+        <!--LEGENDA PARA EMAIL-->
+        <label for="campo_email">Email:</label>
+
+        <!-- CAMPO INPUT DO TYPE EMAIL-->
+        <input id="campo_email" type="email" placeholder="Digite um email" required>
+
+        <br> <br>
+
+        <!--LEGENDA PARA SENHA-->
+        <label for="campo_senha">Senha:</label>
+
+        <!-- CAMPO INPUT DO TYPE PASSWORD-->
+        <input id="campo_senha" type="password" placeholder="Digite uma senha" required>
+
+        <br><br>
+
+        <h2>Qual tipo de jogo você gosta</h2>
+
+        <!-- CAMPO INPUT DO TYPE RADIO-->
+        <input type="radio" id="fps" name="jogo" value="Fps">
+        <!-- LEGENDA DO CAMPO RADIO-->
+        <label for="fps">FPS</label>
+
+        <br><br>
+
+        <!-- CAMPO INPUT DO TYPE RADIO-->
+        <input type="radio" id="rpg" name="jogo" value="Rpg">
+        <!-- LEGENDA DO CAMPO RADIO-->
+        <label for="rpg">Gato</label>
+
+        <br><br>
+
+        <!-- CAMPO INPUT DO TYPE RADIO-->
+        <input type="radio" id="esport" name="jogo" value="Esport">
+        <!-- LEGENDA DO CAMPO RADIO-->
+        <label for="Esport">Esport</label>
+
+        <br><br>
+
+        <h2>Qual jogo você gosta?</h2>
+
+        <!-- CAMPO INPUT DO TYPE CHECKBOX-->
+        <input id="item1" type="checkbox" name="item1" value="Fifa 2023">
+        <!-- LEGENDA DO CAMPO CHECKBOX-->
+        <label for="item1">Fifa 2023</label>
+
+        <br><br>
+
+        <!-- CAMPO INPUT DO TYPE CHECKBOX-->
+        <input id="item2" type="checkbox" name="item2" value="CS:GO">
+        <!-- LEGENDA DO CAMPO CHECKBOX-->
+        <label for="item2">CS:GO</label><br><br>
+
+        <!-- CAMPO INPUT DO TYPE CHECKBOX-->
+        <input id="item3" type="checkbox" name="item3" value="God OF War Ragnarok">
+        <!-- LEGENDA DO CAMPO CHECKBOX-->
+        <label for="item3">God OF War Ragnarok</label>
+
+        <br><br>
+
+        <h2>Escolha uma cor:</h2>
+
+        <!-- CAMPO SELECT-->
+        <select name="plataformas">
+            <option selected disabled value="">Selecione uma plataforma</option>
+            <option value="pc">PC</option>
+            <option value="xbox">Xbox seies X</option>
+            <option value="ps5">Playstation 5</option>
+           
+        </select>
+
+        <br><br>
+
+        <h2>Digite sua mensagem:</h2>
+
+        <!-- CAMPO TEXTAREA-->
+        <textarea required name="mensagem" placeholder="Digite aqui sua mensagem" rows="15" cols="55"></textarea>
+
+        <br><br>
+
+        <!-- CAMPO INPUT DO TYPE SUBMIT-->
+        <input type="submit" value="Enviar Formulário">
+    </form>
+		
+		<!--BOTÃO ALEATÓRIO-->
+		<p><button>Botão Aleatório</button></p>
+</body>
+
+</html>
